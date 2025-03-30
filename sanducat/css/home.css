@@ -1,0 +1,14 @@
+#home {
+    display: flex;
+    position: relative;
+    height: calc(100vh - 109px);
+}
+
+.shape {
+    background-color: var(--azul-forte-desbotado);
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    border-radius: 40% 30% 0 20%;
+    
+}

@@ -3,6 +3,7 @@
 :root {
     --azul-fraco: #67c5ff;
     --azul-forte: #607dff;
+    --azul-forte-desbotado: #60aaffae;
     --aliceblue: #f0f8ff;
 }
 
@@ -20,6 +21,11 @@
     padding: 10px 15px;
     border-radius: 50%;
     color: var(--aliceblue);
+}
+
+.btn-default:hover {
+    cursor: pointer;
+    background-color: var(--azul-forte-desbotado);
 }
 
 a {
